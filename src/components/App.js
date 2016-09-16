@@ -8,8 +8,9 @@ import { Grid, Row, Col } from 'react-bootstrap';
 
 class AppComponent extends Component {
 
+
   componentWillMount() {
-    this.lock = new Auth0Lock('YOUR_AUTH0_CLIENT_ID', 'YOUR_AUTH0_DOMAIN');
+    this.lock = new Auth0Lock('SQLqB2vf2NHUgKObg1DlHifaBnIlgoeJ', 'doriandock.eu.auth0.com');
   }
 
   render() {
@@ -20,6 +21,10 @@ class AppComponent extends Component {
           <Row>
             <Col xs={12} md={3}>
               <Sidebar />
+              {<h1>Une truite</h1>}
+              {<h1>Une truite</h1>}
+              {<h1>Une truite</h1>}
+              {<h1>Une truite</h1>}
             </Col>
             <Col xs={12} md={9}>
               {this.props.children}
