@@ -21,10 +21,7 @@ class AppComponent extends Component {
           <Row>
             <Col xs={12} md={3}>
               <Sidebar />
-              {<h1>Une truite</h1>}
-              {<h1>Une truite</h1>}
-              {<h1>Une truite</h1>}
-              {<h1>Une truite</h1>}
+              
             </Col>
             <Col xs={12} md={9}>
               {this.props.children}
